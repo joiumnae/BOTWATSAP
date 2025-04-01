@@ -115,7 +115,7 @@ Jikalau mau Script Yang No Enc Silhkan Buy Ke
 
 
 #### Support Me
-- [YouTub](https://youtube.com/@GxyenDEV)
+- [YouTube](https://youtube.com/@Gxyenn)
 
 ## Thanks to
 
