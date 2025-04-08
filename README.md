@@ -57,24 +57,6 @@ cd XLESYVIP
 npm install
 ```
 
-## Install for Termux Tanpa /Ubuntu/Ubuntu user
-[ RECOMMENDED INSTALL ON TERMUX ]
-```bash
-pkg update && pkg upgrade
-pkg install git
-pkg install ffmpeg
-pkg install imagemagick
-pkg install nodejs
-pkg install yarn
-git clone https://github.com/Gxyenn/XLESYVIP.git
-termux-setup-storage
-cd XLESYVIP
-yarn
-node start.js
-```
-
----
-
 ## Run
 ```bash
 node .
