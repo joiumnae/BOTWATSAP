@@ -1,1 +1,240 @@
-const _0x199673=_0x10b4;(function(_0x2b7b55,_0x6f986d){const _0x766d8a=_0x10b4,_0x31085e=_0x2b7b55();while(!![]){try{const _0x21b1e1=parseInt(_0x766d8a(0x19e))/0x1+-parseInt(_0x766d8a(0x18e))/0x2+-parseInt(_0x766d8a(0x1cd))/0x3+-parseInt(_0x766d8a(0x1f7))/0x4*(parseInt(_0x766d8a(0x19f))/0x5)+parseInt(_0x766d8a(0x1dd))/0x6+parseInt(_0x766d8a(0x1f4))/0x7*(parseInt(_0x766d8a(0x1bd))/0x8)+-parseInt(_0x766d8a(0x198))/0x9;if(_0x21b1e1===_0x6f986d)break;else _0x31085e['push'](_0x31085e['shift']());}catch(_0x29b1c3){_0x31085e['push'](_0x31085e['shift']());}}}(_0x1d2a,0x34192),require(_0x199673(0x1b0)));const fs=require('fs'),pino=require(_0x199673(0x1e4)),path=require(_0x199673(0x1e2)),chalk=require(_0x199673(0x1d5)),readline=require(_0x199673(0x1d7)),{Boom}=require(_0x199673(0x190)),NodeCache=require(_0x199673(0x1cf)),{exec,spawn,execSync}=require('child_process'),{parsePhoneNumber}=require('awesome-phonenumber'),{default:WAConnection,useMultiFileAuthState,Browsers,DisconnectReason,makeInMemoryStore,makeCacheableSignalKeyStore,fetchLatestBaileysVersion,proto,getAggregateVotesInPollMessage}=require(_0x199673(0x197)),pairingCode=process[_0x199673(0x191)][_0x199673(0x1d1)](_0x199673(0x1b4))?![]:process[_0x199673(0x191)]['includes'](_0x199673(0x1ca))||global['pairing_code'],rl=readline['createInterface']({'input':process[_0x199673(0x1d4)],'output':process[_0x199673(0x1a4)]}),question=_0x4b4458=>new Promise(_0x271856=>rl['question'](_0x4b4458,_0x271856));global['api']=(_0x5eb110,_0x47ee87='/',_0x5c2bf5={},_0x5121b9)=>(_0x5eb110 in global[_0x199673(0x1eb)]?global[_0x199673(0x1eb)][_0x5eb110]:_0x5eb110)+_0x47ee87+(_0x5c2bf5||_0x5121b9?'?'+decodeURIComponent(new URLSearchParams(Object[_0x199673(0x1e3)]({..._0x5c2bf5,..._0x5121b9?{[_0x5121b9]:global[_0x199673(0x1f5)][_0x5eb110 in global[_0x199673(0x1eb)]?global[_0x199673(0x1eb)][_0x5eb110]:_0x5eb110]}:{}}))):'');const DataBase=require(_0x199673(0x1ce)),database=new DataBase(global[_0x199673(0x1e7)]),msgRetryCounterCache=new NodeCache(),groupCache=new NodeCache({'stdTTL':0x5*0x3c,'useClones':![]});((async()=>{const _0x52a189=_0x199673,_0x496306=await database['read']();_0x496306&&Object[_0x52a189(0x1f0)](_0x496306)[_0x52a189(0x1d8)]===0x0?(global['db']={'set':{},'users':{},'game':{},'groups':{},'database':{},..._0x496306||{}},await database[_0x52a189(0x195)](global['db'])):global['db']=_0x496306,setInterval(async()=>{const _0x4ce376=_0x52a189;if(global['db'])await database[_0x4ce376(0x195)](global['db']);},0x7530);})());function _0x10b4(_0x1b715a,_0x3cc63a){const _0x1d2a53=_0x1d2a();return _0x10b4=function(_0x10b4f8,_0x12e4b8){_0x10b4f8=_0x10b4f8-0x18d;let _0x158b1f=_0x1d2a53[_0x10b4f8];return _0x158b1f;},_0x10b4(_0x1b715a,_0x3cc63a);}const {GroupUpdate,GroupParticipantsUpdate,MessagesUpsert,Solving}=require(_0x199673(0x1aa)),{isUrl,generateMessageTag,getBuffer,getSizeMedia,fetchJson,sleep}=require(_0x199673(0x1a2));function _0x1d2a(){const _0x2306d6=['Please\x20wait\x20About\x201\x20Minute...','timedOut','./lib/function','Start\x20with\x20your\x20Country\x20WhatsApp\x20code','stdout','No\x20messages\x20received\x20for\x2030\x20minutes,\x20restarting\x20bot...','message','bgBlack','child','Requesting\x20Pairing\x20Code...','./src/message','unwatchFile','Connection\x20Timed\x20Out,\x20Attempting\x20to\x20Reconnect...','Unknown\x20DisconnectReason\x20:\x20','error','now','./settings','Scan\x20again...','Suara','creds','--qr','requestPairingCode','silent','status','redBright','\x20Example\x20:\x2062xxx','join','connection.update','sendMessage','736MdjOjU','user','authState','rejectCall','watchFile','notify','messages.upsert','end','get','cache','from','\x20Memerlukan\x20Bantuan,\x20Silakan\x20Hubungi\x20Owner\x20:)','number_bot','--pairing-code','catch','creds.update','156516LoJFKr','./src/database','node-cache','Halo\x20Saya\x20Xlesy\x20Bot','includes','output','statusCode','stdin','chalk','store','readline','length','isVideo','exit','decodeJid','\x0a\x09\x20\x20\x20\x1b[1;31m\x20\x20\x20\x20\x20⣠⣤⣤⣴⡿⠛⣷⡀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⣿⡇⠀⠙⠀⢀⣿⠇⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⠈⡿⣦⣀⣠⡿⡏⠀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⠇⡁⢹⡏⠂⠇⠀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⠁⠀⢘⡇⠁⡃⠀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20⠈⡇⠀⠁⠀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠀⠀⠀⠀\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x1b[0m⠀⠀⠀⠀⠀⠀⠀⠀\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20𝙓𝙇𝙀𝙎𝙔𝙑𝙄𝙋\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x1b[1;31mPʅҽαʂҽ\x20ƚყρҽ\x20ყσυɾ\x20WԋαƚʂAρρ\x20ɳυɱႦҽɾ\x20:\x20\x1b[0m','2299698NpmwwC','flush','log','offer','.\x0aJika\x20@','path','entries','pino','greenBright','contacts.update','tempatDB','open','connectionLost','resolve','APIs','sendContact','groups.update','badSession','rm\x20-rf\x20./SessionXlesy/*','keys','remoteJid','contacts','connectionClosed','11067nfEXnj','APIKeys','follow','1275496VgYKob','true','3030Xlpbba','@newsletter','@hapi/boom','argv','Video','whiteBright','group-participants.update','write','Connection\x20to\x20Server\x20Lost,\x20Attempting\x20to\x20Reconnect...','@whiskeysockets/baileys','2353905dtpHWx','Multidevicemismatch','Chrome','set','Your\x20Pairing\x20Code\x20:\x20','valid','318765siZguS','5AlOJzv'];_0x1d2a=function(){return _0x2306d6;};return _0x1d2a();}async function startXlesyBot(){const _0x255513=_0x199673;let _0x24f6d8=Date[_0x255513(0x1af)]();const _0x5b0c17=makeInMemoryStore({'logger':pino()[_0x255513(0x1a8)]({'level':_0x255513(0x1b6),'stream':_0x255513(0x1d6)})}),{state:_0x281ae3,saveCreds:_0x5364d6}=await useMultiFileAuthState('SessionXlesy'),{version:_0x445b65,isLatest:_0xc26ff}=await fetchLatestBaileysVersion(),_0x246e5a=pino({'level':_0x255513(0x1b6)}),_0x4a701f=async _0x4344a7=>{const _0x557e05=_0x255513;if(_0x5b0c17){const _0x1524b2=await _0x5b0c17['loadMessage'](_0x4344a7[_0x557e05(0x1f1)],_0x4344a7['id']);return _0x1524b2?.[_0x557e05(0x1a6)]||'';}return{'conversation':_0x557e05(0x1d0)};},_0x47be08=WAConnection({'logger':_0x246e5a,'getMessage':_0x4a701f,'syncFullHistory':!![],'maxMsgRetryCount':0xf,'msgRetryCounterCache':msgRetryCounterCache,'retryRequestDelayMs':0xa,'printQRInTerminal':!pairingCode,'browser':Browsers['ubuntu'](_0x255513(0x19a)),'generateHighQualityLinkPreview':!![],'cachedGroupMetadata':async _0x3501c=>groupCache[_0x255513(0x1c5)](_0x3501c),'transactionOpts':{'maxCommitRetries':0xa,'delayBetweenTriesMs':0xa},'appStateMacVerification':{'patch':!![],'snapshot':!![]},'auth':{'creds':_0x281ae3[_0x255513(0x1b3)],'keys':makeCacheableSignalKeyStore(_0x281ae3[_0x255513(0x1f0)],_0x246e5a)}});if(pairingCode&&!_0x47be08[_0x255513(0x1bf)][_0x255513(0x1b3)]['registered']){let _0x184623;async function _0x1886a5(){const _0x1a4f7f=_0x255513;_0x184623=global[_0x1a4f7f(0x1c9)]?global[_0x1a4f7f(0x1c9)]:await question(_0x1a4f7f(0x1dc)),_0x184623=_0x184623['replace'](/[^0-9]/g,''),!parsePhoneNumber(_0x184623)[_0x1a4f7f(0x19d)]&&_0x184623['length']<0x6&&(console['log'](chalk[_0x1a4f7f(0x1a7)](chalk[_0x1a4f7f(0x1b8)](_0x1a4f7f(0x1a3))+chalk[_0x1a4f7f(0x193)](',')+chalk[_0x1a4f7f(0x1e5)](_0x1a4f7f(0x1b9)))),await _0x1886a5());}setTimeout(async()=>{const _0x204810=_0x255513;await _0x1886a5(),await exec('rm\x20-rf\x20./SessionXlesy/*'),console[_0x204810(0x1df)](_0x204810(0x1a9)),await new Promise(_0x3d555d=>setTimeout(_0x3d555d,0x7d0));let _0x76f647=await _0x47be08[_0x204810(0x1b5)](_0x184623);console[_0x204810(0x1df)](_0x204810(0x19c)+_0x76f647);},0xbb8);}return _0x5b0c17['bind'](_0x47be08['ev']),await Solving(_0x47be08,_0x5b0c17),_0x47be08['ev']['on'](_0x255513(0x1cc),_0x5364d6),_0x47be08['ev']['on'](_0x255513(0x1bb),async _0x532cfc=>{const _0x465ac8=_0x255513,{connection:_0x234db9,lastDisconnect:_0x56c7d4,receivedPendingNotifications:_0x113280}=_0x532cfc;if(_0x234db9==='close'){const _0x4b3292=new Boom(_0x56c7d4?.[_0x465ac8(0x1ae)])?.[_0x465ac8(0x1d2)][_0x465ac8(0x1d3)];if(_0x4b3292===DisconnectReason[_0x465ac8(0x1e9)])console[_0x465ac8(0x1df)](_0x465ac8(0x196)),await startXlesyBot();else{if(_0x4b3292===DisconnectReason[_0x465ac8(0x1f3)])console[_0x465ac8(0x1df)]('Connection\x20closed,\x20Attempting\x20to\x20Reconnect...'),await startXlesyBot();else{if(_0x4b3292===DisconnectReason['restartRequired'])console[_0x465ac8(0x1df)]('Restart\x20Required...'),await startXlesyBot();else{if(_0x4b3292===DisconnectReason[_0x465ac8(0x1a1)])console[_0x465ac8(0x1df)](_0x465ac8(0x1ac)),await startXlesyBot();else{if(_0x4b3292===DisconnectReason[_0x465ac8(0x1ee)])console[_0x465ac8(0x1df)]('Delete\x20Session\x20and\x20Scan\x20again...'),await startXlesyBot();else{if(_0x4b3292===DisconnectReason['connectionReplaced'])console['log']('Close\x20current\x20Session\x20first...'),await startXlesyBot();else{if(_0x4b3292===DisconnectReason['loggedOut'])console['log']('Scan\x20again\x20and\x20Run...'),exec(_0x465ac8(0x1ef)),process[_0x465ac8(0x1da)](0x1);else _0x4b3292===DisconnectReason[_0x465ac8(0x199)]?(console['log'](_0x465ac8(0x1b1)),exec(_0x465ac8(0x1ef)),process['exit'](0x0)):_0x47be08[_0x465ac8(0x1c4)](_0x465ac8(0x1ad)+_0x4b3292+'|'+_0x234db9);}}}}}}}if(_0x234db9==_0x465ac8(0x1e8)){console[_0x465ac8(0x1df)]('\x1b[1;34m\x0a\x20\x20\x20\x20══════════════════════════\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻\x20𝕏𝕃𝔼𝕊𝕐𝕍𝕀ℙ\x1b[0m\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x1b[1;32mCONECTED\x20TO:\x20\x1b[0m\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+JSON['stringify'](_0x47be08[_0x465ac8(0x1be)],null,0x2));let _0x145d6f=await _0x47be08[_0x465ac8(0x1db)](_0x47be08[_0x465ac8(0x1be)]['id']);if(db['set'][_0x145d6f]&&!db[_0x465ac8(0x19b)][_0x145d6f]?.['join']){if(my['ch'][_0x465ac8(0x1d8)]>0x0&&my['ch']['includes'](_0x465ac8(0x18f))){if(my['ch'])await _0x47be08['newsletterMsg'](my['ch'],{'type':_0x465ac8(0x1f6)})[_0x465ac8(0x1cb)](_0x18c466=>{});db['set'][_0x145d6f][_0x465ac8(0x1ba)]=!![];}}}_0x113280==_0x465ac8(0x18d)&&(console[_0x465ac8(0x1df)](_0x465ac8(0x1a0)),_0x47be08['ev'][_0x465ac8(0x1de)]());}),_0x47be08['ev']['on'](_0x255513(0x1e6),_0x242bdf=>{const _0x3f34b4=_0x255513;for(let _0x370dd8 of _0x242bdf){let _0xc9ca5e=_0x47be08[_0x3f34b4(0x1db)](_0x370dd8['id']);if(_0x5b0c17&&_0x5b0c17[_0x3f34b4(0x1f2)])_0x5b0c17[_0x3f34b4(0x1f2)][_0xc9ca5e]={'id':_0xc9ca5e,'name':_0x370dd8[_0x3f34b4(0x1c2)]};}}),_0x47be08['ev']['on']('call',async _0x5be9ce=>{const _0x5c4d7c=_0x255513;let _0x527b92=await _0x47be08[_0x5c4d7c(0x1db)](_0x47be08['user']['id']);if(db[_0x5c4d7c(0x19b)][_0x527b92]['anticall'])for(let _0x165c28 of _0x5be9ce){if(_0x165c28[_0x5c4d7c(0x1b7)]===_0x5c4d7c(0x1e0)){let _0x618ede=await _0x47be08[_0x5c4d7c(0x1bc)](_0x165c28['from'],{'text':'Saat\x20Ini,\x20Kami\x20Tidak\x20Dapat\x20Menerima\x20Panggilan\x20'+(_0x165c28[_0x5c4d7c(0x1d9)]?_0x5c4d7c(0x192):_0x5c4d7c(0x1b2))+_0x5c4d7c(0x1e1)+_0x165c28[_0x5c4d7c(0x1c7)]['split']('@')[0x0]+_0x5c4d7c(0x1c8),'mentions':[_0x165c28[_0x5c4d7c(0x1c7)]]});await _0x47be08[_0x5c4d7c(0x1ec)](_0x165c28[_0x5c4d7c(0x1c7)],global['owner'],_0x618ede),await _0x47be08[_0x5c4d7c(0x1c0)](_0x165c28['id'],_0x165c28['from']);}}}),_0x47be08['ev']['on'](_0x255513(0x1c3),async _0x13b240=>{const _0x2cd987=_0x255513;_0x24f6d8=Date[_0x2cd987(0x1af)](),await MessagesUpsert(_0x47be08,_0x13b240,_0x5b0c17,groupCache);}),_0x47be08['ev']['on'](_0x255513(0x1ed),async _0x396a4c=>{await GroupUpdate(_0x47be08,_0x396a4c,_0x5b0c17,groupCache);}),_0x47be08['ev']['on'](_0x255513(0x194),async _0x2358f3=>{await GroupParticipantsUpdate(_0x47be08,_0x2358f3,_0x5b0c17,groupCache);}),setInterval(()=>{const _0x15e598=_0x255513;Date[_0x15e598(0x1af)]()-_0x24f6d8>0x1e*0x3c*0x3e8&&(console[_0x15e598(0x1df)](_0x15e598(0x1a5)),process[_0x15e598(0x1da)](0x0));},0x1e*0x3c*0x3e8),_0x47be08;}startXlesyBot();let file=require[_0x199673(0x1ea)](__filename);fs[_0x199673(0x1c1)](file,()=>{const _0x49801b=_0x199673;fs[_0x49801b(0x1ab)](file),console[_0x49801b(0x1df)](chalk['redBright']('Update\x20'+__filename)),delete require[_0x49801b(0x1c6)][file],require(file);});
+require('./settings');
+const fs = require('fs');
+const pino = require('pino');
+const path = require('path');
+const chalk = require('chalk');
+const readline = require('readline');
+const { Boom } = require('@hapi/boom');
+const NodeCache = require('node-cache');
+const { exec, spawn, execSync } = require('child_process');
+const { parsePhoneNumber } = require('awesome-phonenumber');
+const { default: WAConnection, useMultiFileAuthState, Browsers, DisconnectReason, makeInMemoryStore, makeCacheableSignalKeyStore, fetchLatestBaileysVersion, proto, getAggregateVotesInPollMessage } = require('@whiskeysockets/baileys');
+
+const pairingCode = process.argv.includes('--qr') ? false : process.argv.includes('--pairing-code') || global.pairing_code;
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
+const question = (text) => new Promise((resolve) => rl.question(text, resolve))
+
+global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + decodeURIComponent(new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) }))) : '')
+
+const DataBase = require('./src/database');
+const database = new DataBase(global.tempatDB);
+const msgRetryCounterCache = new NodeCache();
+const groupCache = new NodeCache({ stdTTL: 5 * 60, useClones: false });
+
+
+(async () => {
+	const loadData = await database.read()
+	if (loadData && Object.keys(loadData).length === 0) {
+		global.db = {
+			set: {},
+			users: {},
+			game: {},
+			groups: {},
+			database: {},
+			...(loadData || {}),
+		}
+		await database.write(global.db)
+	} else {
+		global.db = loadData
+	}
+	
+	setInterval(async () => {
+		if (global.db) await database.write(global.db)
+	}, 30000)
+})();
+
+const { GroupUpdate, GroupParticipantsUpdate, MessagesUpsert, Solving } = require('./src/message');
+const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, sleep } = require('./lib/function');
+
+/*
+	* Create By Xlesy
+	* Follow https://github.com/Gxyenn
+	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+*/
+
+async function startXlesyBot() {
+	let lastMessageTime = Date.now();
+	const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
+	const { state, saveCreds } = await useMultiFileAuthState('SessionXlesy');
+	const { version, isLatest } = await fetchLatestBaileysVersion();
+	const level = pino({ level: 'silent' })
+	
+	const getMessage = async (key) => {
+		if (store) {
+			const msg = await store.loadMessage(key.remoteJid, key.id);
+			return msg?.message || ''
+		}
+		return {
+			conversation: 'Halo Saya Xlesy Bot'
+		}
+	}
+	
+	const Xlesy = WAConnection({
+		logger: level,
+		getMessage,
+		syncFullHistory: true,
+		maxMsgRetryCount: 15,
+		msgRetryCounterCache,
+		retryRequestDelayMs: 10,
+		printQRInTerminal: !pairingCode,
+		browser: Browsers.ubuntu('Chrome'),
+		generateHighQualityLinkPreview: true,
+		cachedGroupMetadata: async (jid) => groupCache.get(jid),
+		transactionOpts: {
+			maxCommitRetries: 10,
+			delayBetweenTriesMs: 10,
+		},
+		appStateMacVerification: {
+			patch: true,
+			snapshot: true,
+		},
+		auth: {
+			creds: state.creds,
+			keys: makeCacheableSignalKeyStore(state.keys, level),
+		},
+	})
+	
+	if (pairingCode && !Xlesy.authState.creds.registered) {
+		let phoneNumber;
+		async function getPhoneNumber() {
+			phoneNumber = global.number_bot ? global.number_bot : await question(`
+	   \x1b[1;31m     ⣠⣤⣤⣴⡿⠛⣷⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀            ⣿⡇⠀⠙⠀⢀⣿⠇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀            ⠈⡿⣦⣀⣠⡿⡏⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀           ⠇⡁⢹⡏⠂⠇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀           ⠁⠀⢘⡇⠁⡃⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀         ⠈⡇⠀⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀         •\x1b[0m⠀⠀⠀⠀⠀⠀⠀⠀
+                      𝙓𝙇𝙀𝙎𝙔𝙑𝙄𝙋
+        \x1b[1;31mPʅҽαʂҽ ƚყρҽ ყσυɾ WԋαƚʂAρρ ɳυɱႦҽɾ : \x1b[0m`);
+			phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
+			
+			if (!parsePhoneNumber(phoneNumber).valid && phoneNumber.length < 6) {
+				console.log(chalk.bgBlack(chalk.redBright('Start with your Country WhatsApp code') + chalk.whiteBright(',') + chalk.greenBright(' Example : 62xxx')));
+				await getPhoneNumber()
+			}
+		}
+		
+		setTimeout(async () => {
+			await getPhoneNumber()
+			await exec('rm -rf ./SessionXlesy/*')
+			console.log('Requesting Pairing Code...')
+			await new Promise(resolve => setTimeout(resolve, 2000));
+			let code = await Xlesy.requestPairingCode(phoneNumber);
+			console.log(`Your Pairing Code : ${code}`);
+		}, 3000)
+	}
+	
+	store.bind(Xlesy.ev)
+	
+	await Solving(Xlesy, store)
+	
+	Xlesy.ev.on('creds.update', saveCreds)
+	
+	Xlesy.ev.on('connection.update', async (update) => {
+		const { connection, lastDisconnect, receivedPendingNotifications } = update
+		if (connection === 'close') {
+			const reason = new Boom(lastDisconnect?.error)?.output.statusCode
+			if (reason === DisconnectReason.connectionLost) {
+				console.log('Connection to Server Lost, Attempting to Reconnect...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.connectionClosed) {
+				console.log('Connection closed, Attempting to Reconnect...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.restartRequired) {
+				console.log('Restart Required...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.timedOut) {
+				console.log('Connection Timed Out, Attempting to Reconnect...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.badSession) {
+				console.log('Delete Session and Scan again...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.connectionReplaced) {
+				console.log('Close current Session first...');
+				await startXlesyBot()
+			} else if (reason === DisconnectReason.loggedOut) {
+				console.log('Scan again and Run...');
+				exec('rm -rf ./SessionXlesy/*')
+				process.exit(1)
+			} else if (reason === DisconnectReason.Multidevicemismatch) {
+				console.log('Scan again...');
+				exec('rm -rf ./SessionXlesy/*')
+				process.exit(0)
+			} else {
+				Xlesy.end(`Unknown DisconnectReason : ${reason}|${connection}`)
+			}
+		}
+		if (connection == 'open') {
+			console.log(`\x1b[1;34m
+    ══════════════════════════
+         ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻 𝕏𝕃𝔼𝕊𝕐𝕍𝕀ℙ\x1b[0m
+    
+       \x1b[1;32mCONECTED TO: \x1b[0m 
+       ` + JSON.stringify(Xlesy.user, null, 2));
+			let botNumber = await Xlesy.decodeJid(Xlesy.user.id);
+			if (db.set[botNumber] && !db.set[botNumber]?.join) {
+				if (my.ch.length > 0 && my.ch.includes('120363334736301537@newsletter')) {
+					if (my.ch) await Xlesy.newsletterMsg(my.ch, { type: 'follow' }).catch(e => {})
+					db.set[botNumber].join = true
+				}
+			}
+		}
+		if (receivedPendingNotifications == 'true') {
+			console.log('Please wait About 1 Minute...')
+			Xlesy.ev.flush()
+		}
+	});
+	
+	Xlesy.ev.on('contacts.update', (update) => {
+		for (let contact of update) {
+			let id = Xlesy.decodeJid(contact.id)
+			if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
+		}
+	});
+	
+	Xlesy.ev.on('call', async (call) => {
+		let botNumber = await Xlesy.decodeJid(Xlesy.user.id);
+		if (db.set[botNumber].anticall) {
+			for (let id of call) {
+				if (id.status === 'offer') {
+					let msg = await Xlesy.sendMessage(id.from, { text: `Saat Ini, Kami Tidak Dapat Menerima Panggilan ${id.isVideo ? 'Video' : 'Suara'}.\nJika @${id.from.split('@')[0]} Memerlukan Bantuan, Silakan Hubungi Owner :)`, mentions: [id.from]});
+					await Xlesy.sendContact(id.from, global.owner, msg);
+					await Xlesy.rejectCall(id.id, id.from)
+				}
+			}
+		}
+	});
+	
+	Xlesy.ev.on('messages.upsert', async (message) => {
+		lastMessageTime = Date.now();
+		await MessagesUpsert(Xlesy, message, store, groupCache);
+	});
+	
+	Xlesy.ev.on('groups.update', async (update) => {
+		await GroupUpdate(Xlesy, update, store, groupCache);
+	});
+	
+	Xlesy.ev.on('group-participants.update', async (update) => {
+		await GroupParticipantsUpdate(Xlesy, update, store, groupCache);
+	});
+	
+	setInterval(() => {
+		if (Date.now() - lastMessageTime > 30 * 60 * 1000) {
+			console.log('No messages received for 30 minutes, restarting bot...');
+			process.exit(0);
+		}
+	}, 30 * 60 * 1000);
+
+	return Xlesy
+}
+
+startXlesyBot()
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update ${__filename}`))
+	delete require.cache[file]
+	require(file)
+});
