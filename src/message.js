@@ -57,10 +57,10 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 				}
 				let messageText;
 				if (action === 'add') {
-					messageText = `Welcome to ${metadata.subject}\n@${n.split('@')[0]}\nSemoga Betah Ya!.\n> XLESYVIP`;
+					messageText = `Welcome to ${metadata.subject}\n@${n.split('@')[0]}\nSemoga betah Emuachh~\n> baca dan patuhi rules grup!`;
 					metadata.participants.push({ id: jidNormalizedUser(n), admin: null });
 				} else if (action === 'remove') {
-					messageText = `"Goodbye!@${n.split('@')[0]}\n _\`Shūdan\`_ _*${metadata.subject}*_\nJangan lupa untuk selalu tersenyum!"\n> XLESYVIP`;
+					messageText = `Dadah👋🏻 @${n.split('@')[0]}\n _\`Shūdan\`_ _*${metadata.subject}*_\ntenang di alam sana\n> GOODBYE`;
 					metadata.participants = metadata.participants.filter(p => !participants.includes(jidNormalizedUser(p.id)));
 				} else if (action === 'promote') {
 					messageText = `@${n.split('@')[0]}\nYoroKobi!.🥳 Kamu telah dipromosikan. Semoga sukses!"\n_\`Shūdan\`_ _*${metadata.subject}*_\n_Kara_ @${author.split('@')[0]}`;
